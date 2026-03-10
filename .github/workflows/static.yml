@@ -1,0 +1,1096 @@
+<style>
+  /* Base readability */
+  .cn-wrap {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.65;
+  }
+
+  /* Title: smaller + usually one line on desktop, wraps on mobile */
+  .cn-title {
+    font-size: 32px;
+    line-height: 1.15;
+    margin-bottom: 18px;
+    white-space: nowrap;
+  }
+  @media (max-width: 700px) {
+    .cn-title {
+      white-space: normal;
+      font-size: 28px;
+    }
+  }
+
+  /* Links: dark red instead of blue */
+  .cn-wrap a { color: #7a0f14; }
+  .cn-wrap a:visited { color: #5f0c10; }
+  .cn-wrap a:hover, .cn-wrap a:focus { color: #4b090c; }
+
+  /* Make accordions look like accordions */
+  .cn-wrap details { margin-bottom: 14px; }
+  .cn-wrap summary {
+    padding: 12px 14px;
+    border: 1px solid rgba(0,0,0,0.18);
+    border-radius: 10px;
+    background: rgba(0,0,0,0.03);
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .cn-wrap summary::-webkit-details-marker { display: none; }
+
+  /* Marker: chevron + pentagram */
+  .cn-wrap summary::after {
+    content: "▸  ⛤";
+    font-weight: 800;
+    opacity: 0.85;
+  }
+  .cn-wrap details[open] > summary::after { content: "▾  ⛤"; }
+
+  /* Space inside opened panels */
+  .cn-wrap details > div { padding: 10px 6px 4px 6px; }
+
+  /* Nested accordions slightly subtler */
+  .cn-wrap details details summary {
+    font-weight: 600;
+    background: rgba(0,0,0,0.02);
+  }
+
+  /* If ⛤ shows as a box on some devices, swap to triangles only:
+     .cn-wrap summary::after { content: "▸"; }
+     .cn-wrap details[open] > summary::after { content: "▾"; }
+  */
+</style>
+
+<div class="cn-wrap" style="max-width: 820px; margin: 0 auto; padding: 50px 40px; box-sizing: border-box;">
+
+  <h1 class="cn-title">Welcome to Necromancy for the Dead Inside.</h1>
+
+  <p>
+    For the plain text version, <a href="https://creativenecromancy.wordpress.com/plain-text-version/">click here</a>.
+  </p>
+
+  <p>
+    My name is Jae, and this is my culminating experience for my master of Instructional Design and Technology.
+  </p>
+
+  <p>
+    Necromancy for the Dead Inside is a 100 day / 100 prompt creative practice intending to help heal and restore the inner artist in us all. We will work together as an artistic community supporting and nurturing the artists in us all.
+  </p>
+
+  <p style="margin-bottom: 30px">
+    Over the next few weeks, this space will be populated with prompts intended to facilitate a practice of creative healing and rejuvenation.
+  </p>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">How it works:</summary>
+    <div style="padding: 12px 0">
+      <p>
+        There will be 100 prompts designed to help you think about creativity and art. We will do the prompts together, though asynchronously. You will be able to see what others before you have created from prompts and those coming after you can see what you choose to share!
+        <br>
+        While I encourage participating as close to daily as you can, I do not expect perfection from anyone. You can do prompts as you can, you can break a “daily” prompt up to be done over multiple days. This is your practice, you do it as you want.
+      </p>
+    </div>
+  </details>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">What is needed?</summary>
+
+    <div style="padding: 12px 0">
+
+      <p>
+        First, everything is a suggestion. Please adapt this practice to your own needs. For example, if you are visually impaired, you can use audio tools in lieu of the notebook and wall calendar.
+      </p>
+
+      <details style="margin-top: 12px">
+        <summary style="font-weight: 600;cursor: pointer">A notebook with 100 sheets</summary>
+        <div style="padding: 8px 0">
+          <p>
+            Research has shown that writing reflections after an exercise<br>
+            <a href="https://wac.umn.edu/tww-program/teaching-resources/using-reflective-writing" target="_blank" rel="noopener">Improves transfer &amp; retention</a><br>
+            <a href="https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2020.604997/full" target="_blank" rel="noopener">Deepens experiential learning</a><br>
+            <a href="https://www.cambridge.org/core/journals/advances-in-psychiatric-treatment/article/emotional-and-physical-health-benefits-of-expressive-writing/ED2976A61F5DE56B46F07A1CE9EA9F9F?utm_campaign=shareaholic&amp;utm_medium=copy_link&amp;utm_source=bookmark" target="_blank" rel="noopener">And is good for both mental and physical health!</a><br>
+            Further,
+            <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full" target="_blank" rel="noopener">the physical act of writing, not typing, leads to widespread brain connectivity</a>. The act of physically writing helps to rewire your brain!
+          </p>
+
+          <p>
+            Plus, if you have a notebook, you can doodle!
+            <a href="https://www.rcn.org.uk/magazines/Wellbeing/2023/Nov/Doodling-How-can-it-improve-wellbeing" target="_blank" rel="noopener">Doodling has been shown to be good for your mental health, help build creativity, and increase engagement!</a>
+          </p>
+
+          <p>
+            I prefer unlined, but lined or unlined is up to you!
+            <br>
+            Label sheets (not pages) 1-100 so you can easily find any given prompt. The numerical labeling also allows you to skip as needed and go back as needed.
+          </p>
+        </div>
+      </details>
+
+      <details style="margin-top: 12px">
+        <summary style="font-weight: 600;cursor: pointer">A wall calendar</summary>
+        <div style="padding: 8px 0">
+          <p>
+            <a href="https://kellercenter.hankamer.baylor.edu/news/story/2023/back-basics-dont-ditch-paper-planner?utm_source=chatgpt.com" target="_blank" rel="noopener">A 2023 study found participants assigned to paper calendars were more likely to complete scheduled activities than those using digital ones</a>, apparently because paper supports a big-picture view of plans.
+            <a href="https://www.alibaba.com/product-insights/digital-habit-streak-calendar-vs-physical-wall-chart-which-creates-stronger-psychological-commitment-to-daily-step-goals.html" target="_blank" rel="noopener">Studies have also shown a physical calendar increases psychological commitment.</a>
+          </p>
+        </div>
+      </details>
+
+      <details style="margin-top: 12px">
+        <summary style="font-weight: 600;cursor: pointer">A blog</summary>
+        <div style="padding: 8px 0">
+          <p>
+            This is a little less optional. Pretty please have a blog. The blog is where you will post your art and your process. The blog can be made private, public, or any mix of the above.
+            <br>
+            The inspiration for this project is the
+            <a href="https://en.wikipedia.org/wiki/Connectivism" target="_blank" rel="noopener">educational theory of connectivism</a>. Largely, we learn through community.
+            <br>
+            Not a people person? That’s fine. Neither am I. I had a panic attack yesterday when it took me 3 hours to buy a car because I couldn’t be around people anymore, I GET IT!
+            <br>
+            But even for us hermits (maybe especially for us hermits) growth is best built in networks and learning lives in the ability to make connections (mental and social) across the networks.
+            <br>
+            Yes, that is some hippy shit. But also, it’s backed by science.
+            <br>
+            Connectivism says knowledge lives in networks. Not just people — ideas, tools, notes, links, conversations, patterns. Learning is making connections and strengthening them. You don’t have to love people to benefit from the network; you just have to participate in it. (please.)
+            <br>
+            WITH THAT SAID you can also set your blog to private. And this way you can look back at your growth through these projects. And maybe one day you’ll want to share an entry. As I said above, this is YOUR practice. Yes, I have strong suggestions. But I’ll still meet you where you are.
+          </p>
+        </div>
+      </details>
+
+    </div>
+  </details>
+
+  <!-- RULES -->
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">Rules</summary>
+    <div style="padding: 12px 0">
+      <details style="margin-top: 12px">
+        <summary style="font-weight: 600;cursor: pointer">No criticism of any kind!</summary>
+        <div style="padding: 8px 0">
+          <p>lorem ipsum lorem ipsum</p>
+        </div>
+      </details>
+
+      <details style="margin-top: 12px">
+        <summary style="font-weight: 600;cursor: pointer">Comparison is the thief of joy!</summary>
+        <div style="padding: 8px 0">
+          <p>lorem ipsum lorem ipsum</p>
+        </div>
+      </details>
+
+      <details style="margin-top: 12px">
+        <summary style="font-weight: 600;cursor: pointer">No bigotry of any kind, including dog whistles!</summary>
+        <div style="padding: 8px 0">
+          <p>lorem ipsum lorem ipsum</p>
+        </div>
+      </details>
+    </div>
+  </details>
+
+  <!-- LINKS -->
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 20px;cursor: pointer">Links</summary>
+    <div style="padding: 12px 0;line-height: 1.8">
+
+      <p><strong>Reddit:</strong><br>
+        <a href="https://www.reddit.com/r/CreativeNecromancy" target="_blank" rel="noopener">https://www.reddit.com/r/CreativeNecromancy</a>
+      </p>
+
+      <p><strong>Instagram:</strong><br>
+        <a href="https://www.instagram.com/creativenecromancy/" target="_blank" rel="noopener">https://www.instagram.com/creativenecromancy/</a>
+      </p>
+
+      <p><strong>YouTube:</strong><br>
+        <a href="https://www.youtube.com/@creativenecromancy" target="_blank" rel="noopener">https://www.youtube.com/@creativenecromancy</a>
+      </p>
+
+      <p><strong>Facebook Group:</strong><br>
+        <a href="https://www.facebook.com/share/g/1HpaBJDynA/" target="_blank" rel="noopener">https://www.facebook.com/share/g/1HpaBJDynA/</a>
+      </p>
+
+      <p><strong>Discord:</strong><br>
+        <a href="https://discord.gg/X7CCdsUa" target="_blank" rel="noopener">https://discord.gg/X7CCdsUa</a>
+      </p>
+
+    </div>
+  </details>
+
+  <!-- THE PROMPTS -->
+  <h2 style="margin-top: 40px;margin-bottom: 20px">The Prompts</h2>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">Prompts 1–10</summary>
+    <div style="padding: 12px 0">
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 1</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 2</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 3</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 4</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 5</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 6</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 7</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 8</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 9</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 10</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+    </div>
+  </details>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">Prompts 11–20</summary>
+    <div style="padding: 12px 0">
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 11</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 12</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 13</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 14</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 15</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 16</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 17</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 18</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 19</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 20</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+    </div>
+  </details>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">Prompts 21–30</summary>
+    <div style="padding: 12px 0">
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 21</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 22</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 23</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 24</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 25</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 26</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 27</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 28</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 29</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 30</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+    </div>
+  </details>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">Prompts 31–40</summary>
+    <div style="padding: 12px 0">
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 31</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 32</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 33</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 34</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 35</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 36</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 37</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 38</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 39</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 40</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+    </div>
+  </details>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">Prompts 41–50</summary>
+    <div style="padding: 12px 0">
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 41</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 42</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 43</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 44</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 45</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 46</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 47</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 48</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 49</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 50</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+    </div>
+  </details>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">Prompts 51–60</summary>
+    <div style="padding: 12px 0">
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 51</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 52</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 53</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 54</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 55</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 56</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 57</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 58</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 59</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 60</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+    </div>
+  </details>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">Prompts 61–70</summary>
+    <div style="padding: 12px 0">
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 61</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 62</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 63</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 64</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 65</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 66</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 67</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 68</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 69</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 70</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+    </div>
+  </details>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">Prompts 71–80</summary>
+    <div style="padding: 12px 0">
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 71</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 72</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 73</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 74</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 75</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 76</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 77</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 78</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 79</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 80</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+    </div>
+  </details>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">Prompts 81–90</summary>
+    <div style="padding: 12px 0">
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 81</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 82</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 83</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 84</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 85</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 86</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 87</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 88</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 89</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 90</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+    </div>
+  </details>
+
+  <details style="margin-bottom: 16px">
+    <summary style="font-weight: bold;font-size: 18px;cursor: pointer">Prompts 91–100</summary>
+    <div style="padding: 12px 0">
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 91</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 92</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 93</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 94</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 95</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 96</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 97</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 98</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 99</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+      <details style="margin-bottom: 8px">
+        <summary style="cursor: pointer">Prompt 100</summary>
+        <div style="padding: 8px 0">
+          <h4>Lorem Ipsum</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </details>
+
+    </div>
+  </details>
+
+</div>
